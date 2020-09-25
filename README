@@ -1,0 +1,15 @@
+# React app - My own pre-config
+## Description 
+This is my own pre-config for React.js application. Pre-confing includes all dependencies and file structure with basic react app. 
+## Setup
+- clone repo 
+- run `npm install`
+- run `npx eslint --init`
+
+> For next versioning with git initialize repository with `git init` and then rename `dot-gitignore` to `.gitignore`
+## Scripts
+ - run developer server `npm/yarn run dev-server`
+ - run static server `npm/yarn run serve`
+ - run build `npm/yarn run build`
+
+
