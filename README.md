@@ -6,10 +6,10 @@ This is my own pre-config for React.js application. Pre-confing includes all dep
 - run `npm install`
 - run `npx eslint --init`
 
-> For next versioning with git initialize repository with `git init` and then rename `dot-gitignore` to `.gitignore`
+> For next versioning with git init repository with `git init` and then rename `dot-gitignore` to `.gitignore`
 ## Scripts
- - run developer server `npm/yarn run dev-server`
- - run static server `npm/yarn run serve`
- - run build `npm/yarn run build`
+ - Start developer server `npm/yarn run dev-server`
+ - Start static server `npm/yarn run serve`
+ - Start build `npm/yarn run build`
 
 
