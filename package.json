@@ -20,7 +20,8 @@
     "scripts": {
         "test-production": "live-server dist",
         "build": "webpack --config webpack.config.js",
-        "dev-server": "webpack serve"
+        "dev-server": "webpack serve",
+        "report": "webpack-bundle-analyzer ./dist/report/stats-log.js"
     },
     "repository": {
         "type": "git",
