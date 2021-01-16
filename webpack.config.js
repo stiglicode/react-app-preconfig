@@ -105,7 +105,14 @@ module.exports = {
     },
   },
   plugins: [
-    new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin({
+      openAnalyzer: false,
+      generateStatsFile: true,
+      analyzerMode: "static",
+      // analyzerMode: "server",
+      statsFilename: "./report/stats-log.js",
+      reportFilename: "./report/report-index.html",
+    }),
     // For test pictures
     // new CopyPlugin({
     //   patterns: [
